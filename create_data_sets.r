@@ -1,3 +1,5 @@
+library(jsonlite)
+
 jitterpoints = 40
 jittersd = 0.40
 
@@ -34,5 +36,10 @@ colnames(df) = c("x","y","class")
 df$x = round(as.numeric(as.character(df$x)), 3)
 df$y = round(as.numeric(as.character(df$y)), 3)
 
+# Plot it!
 plot(df$x, df$y, col=df$class)
 legend(2,2,unique(df$class),col=1:length(df$class),pch=1)
+
+#write.csv(file="sample-data-complex.csv", x=df)
+jsondf = toJSON(df, pretty=TRUE)
+writeLines(jsondf,"data-set.json")
