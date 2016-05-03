@@ -1,23 +1,32 @@
 
+// Required functions
+var fs = require("fs");
+var vm = require('vm');
+vm.runInThisContext(fs.readFileSync(__dirname + "/functions/lookups.js"));
+
+// Load ML library.
 var ml = require('machine_learning');
-var x = [[0.4, 0.5, 0.5, 0.,  0.,  0.],
-    [0.5, 0.3,  0.5, 0.,  0.,  0.],
-    [0.4, 0.5, 0.5, 0.,  0.,  0.],
-    [0.,  0.,  0.5, 0.3, 0.5, 0.],
-    [0.,  0.,  0.5, 0.4, 0.5, 0.],
-    [0.,  0.,  0.5, 0.5, 0.5, 0.]];
-var y = [[1, 0],
-    [1, 0],
-    [1, 0],
-    [0, 1],
-    [0, 1],
-    [0, 1]];
+
+// Load data from file.
+var dataSet = require('./data-set.json');
+
+// Get class names.
+var classNames = getClassNames(dataSet);
+
+// Process JSON into an array.
+var x = [];
+var y = [];
+
+for (var item, i = 0; item = dataSet[i++];) {
+    x.push([item.x, item.y]);
+    y.push(getResponse(item.class, classNames))
+}
 
 var mlp = new ml.MLP({
     'input' : x,
     'label' : y,
-    'n_ins' : 6,
-    'n_outs' : 2,
+    'n_ins' : 2,
+    'n_outs' : classNames.length,
     'hidden_layer_sizes' : [4,4,5]
 });
 
@@ -28,8 +37,24 @@ mlp.train({
     'epochs' : 20000
 });
 
-a = [[0.5, 0.5, 0., 0., 0., 0.],
-    [0., 0., 0., 0.5, 0.5, 0.],
-    [0.5, 0.5, 0.5, 0.5, 0.5, 0.]];
+// New points.
+var newX = [[1, 3],
+    [2, 2],
+    [4, 3]];
 
-console.log(mlp.predict(a));
+var newY = [];
+
+// Predict results for points
+var prediction = mlp.predict(newX);
+
+// Process results into useable information
+prediction.forEach(function(responseArray) {
+
+    var maxResponse = Math.max.apply(Math, responseArray);
+    var responseIndex = responseArray.indexOf(maxResponse);
+    newY.push(classNames[responseIndex])
+
+});
+
+console.log("Result : ", newY);
+

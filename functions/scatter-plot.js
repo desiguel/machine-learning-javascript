@@ -1,17 +1,6 @@
-/**
- * Basic logistic regression example.
- * Modified by @desiguel.
- */
-
-// Required functions
-var fs = require("fs");
-var vm = require('vm');
 var d3 = require("d3");
 var jsdom = require("jsdom");
-vm.runInThisContext(fs.readFileSync(__dirname + "/functions/lookups.js"));
 
-// TODO Move scatter-plot function to new file and reference.
-//vm.runInThisContext(fs.readFileSync(__dirname + "/functions/scatter-plot.js"));
 /**
  * Creates a x-y scatter plot of the provided data.
  *
@@ -118,93 +107,28 @@ function scatterPlot(data, filename, xlab, ylab) {
 
     //text of the CSS stylesheet below -- note the multi-line JS requires
     //escape characters "\" at the end of each line
-    var css_text = "<![CDATA[\
-        svg {\
-            font-family: serif;\
-            font-size: 10pt;\
-            fill: black;\
-            stroke-width='20'\
-        }\
-        \
-        .axis path,\
-        .axis line {\
-            fill: none;\
-            stroke: #000;\
-            shape-rendering: crispEdges;\
-        }\
-        \
-        .dot {\
-            stroke: #000;\
-        }\
-    ]]>";
+    var css_text = "body {\
+    font: 10px sans-serif;\
+    }\
+    \
+    .axis path,\
+    .axis line {\
+        fill: none;\
+        stroke: #000;\
+        shape-rendering: crispEdges;\
+    }\
+    \
+    .dot {\
+        stroke: #000;\
+    }";
 
     svg_style.text(css_text);
 
     // Print SVG to file.
-    fs.writeFile(filename, d3.select(document.body).html(), function(err) {
+    fs.writeFile(filename, d3.select('body').html(), function(err) {
         if(err) {
             return console.log(err);
         }
         console.log("Image saved!");
     });
 }
-
-// Load ML library.
-var ml = require('machine_learning');
-
-// Load data from file.
-var dataSet = require('./data-set.json');
-
-// Get class names.
-var classNames = getClassNames(dataSet);
-
-// Process JSON into an array.
-var weight = [];
-var price = [];
-
-for (var item, i = 0; item = dataSet[i++];) {
-    weight.push([item.weight, item.price]);
-    price.push(getResponse(item.class, classNames))
-}
-
-// Run model.
-var classifier = new ml.LogisticRegression({
-    'input' : weight,
-    'label' : price,
-    'n_in' : 2,
-    'n_out' : classNames.length
-});
-
-classifier.set('log level',1);
-
-var training_epochs = 800, lr = 0.5;
-
-classifier.train({
-    'lr' : lr,
-    'epochs' : training_epochs
-});
-
-// Define new points.
-var newInputs = [[1, 3],
-     [2, 2],
-     [4, 3]];
-
-var newResponse = [];
-
-// Predict results for new points.
-var prediction = classifier.predict(newInputs);
-
-// Process results into use-able information.
-prediction.forEach(function(responseArray) {
-
-    var maxResponse = Math.max.apply(Math, responseArray);
-    var responseIndex = responseArray.indexOf(maxResponse);
-    newResponse.push(classNames[responseIndex])
-
-});
-
-console.log("Result : ", newResponse);
-
-scatterPlot(dataSet, "./scatterplot1.svg", "Weight (kg)", "Price($)");
-
-
