@@ -113,7 +113,7 @@ Implementation of webworker-threads (multi-core node processing)
 
 # Conclusions
 
-Node is usable for basic ML activities. For anything custom you'll have to write your own library.
+Nodes is usable for basic ML activities. For anything custom you'll have to write your own library.
 
 
 # Examples
@@ -123,4 +123,10 @@ http://playground.tensorflow.org/#activation=tanh&batchSize=10&dataset=circle&re
 
 Included Node packages
 d3
-browserify
+machine_learning
+jsdom
+
+# Other comments
+
+machine_learning package hasn't been optimised for speed. E.g. no need for percentage completion output to console.
+

@@ -1,0 +1,23 @@
+{
+  "name": "machine-learning-javascript",
+  "version": "0.0.0",
+  "description": "JS and R machine learning examples.",
+  "main": "logistic_regression_simple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desiguel/machine-learning-javascript.git"
+  },
+  "author": "@desiguel",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/desiguel/machine-learning-javascript/issues"
+  },
+  "dependencies": {
+    "d3": "^3.5.16",
+    "jsdom": "^8.5.0",
+    "machine_learning": "0.0.8"
+  }
+}

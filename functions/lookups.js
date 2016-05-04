@@ -30,3 +30,25 @@ function getResponse(responseClass, classNames) {
     });
     return response;
 }
+
+/**
+ * Returns a point style based on the input class category.
+ * @param category
+ * @returns d3 svg symbol string
+ */
+function pointStyle(category) {
+    if (category == "unknown")
+        return "cross";
+    return "circle";
+}
+
+/**
+ * Returns a point size based on the input class category.
+ * @param category
+ * @returns d3 svg symbol size
+ */
+function pointSize(category) {
+    if (category == "unknown")
+        return 140;
+    return 30;
+}

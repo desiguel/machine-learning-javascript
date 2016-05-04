@@ -1,17 +1,20 @@
 /**
  * Basic logistic regression example.
- * Modified by @desiguel.
+ * Created by @desiguel.
  */
 
-// Required functions
+// Required packages
 var fs = require("fs");
 var vm = require('vm');
 var d3 = require("d3");
 var jsdom = require("jsdom");
 vm.runInThisContext(fs.readFileSync(__dirname + "/functions/lookups.js"));
 
+
+
 // TODO Move scatter-plot function to new file and reference.
 //vm.runInThisContext(fs.readFileSync(__dirname + "/functions/scatter-plot.js"));
+
 /**
  * Creates a x-y scatter plot of the provided data.
  *
@@ -83,6 +86,7 @@ function scatterPlot(data, filename, xlab, ylab) {
         .style("text-anchor", "end")
         .text(ylab);
 
+    /*
     svg.selectAll(".dot")
         .data(data)
         .enter().append("circle")
@@ -91,6 +95,29 @@ function scatterPlot(data, filename, xlab, ylab) {
         .attr("cx", function(d) { return x(d.weight); })
         .attr("cy", function(d) { return y(d.price); })
         .style("fill", function(d) { return color(d.class); });
+    */
+    svg.selectAll("path")
+        .data(data)
+        .enter().append("path")
+        .attr("transform", function(d) {
+            return "translate(" + x(d.weight) + "," + y(d.price) + ")";
+        })
+        .attr("d", d3.svg.symbol().type(function(d) {
+            return pointStyle(d.class);
+        })
+            .size(function(d) {
+                return pointSize(d.class);
+            }))
+        .style("fill", function(d) {
+            if (d.class != "unknown")
+                return color(d.class);
+            return "black";})
+        .style("stroke", function(d) {
+            if (d.class != "unknown")
+                return color(d.class);
+            return "black";})
+        .style("stroke-width", "1.5px");
+
 
     var legend = svg.selectAll(".legend")
         .data(color.domain())
@@ -111,13 +138,12 @@ function scatterPlot(data, filename, xlab, ylab) {
         .style("text-anchor", "end")
         .text(function(d) { return d; });
 
-    //add css stylesheet
+    // Add css stylesheet.
     var svg_style = svg.append("defs")
         .append('style')
         .attr('type','text/css');
 
-    //text of the CSS stylesheet below -- note the multi-line JS requires
-    //escape characters "\" at the end of each line
+    // CSS styling
     var css_text = "<![CDATA[\
         svg {\
             font-family: serif;\
@@ -152,10 +178,10 @@ function scatterPlot(data, filename, xlab, ylab) {
 // Load ML library.
 var ml = require('machine_learning');
 
-// Load data from file.
-var dataSet = require('./data-set.json');
+// Load training data from file.
+var dataSet = require('./data-set-with-unknowns.json');
 
-// Get class names.
+// Get class/category names.
 var classNames = getClassNames(dataSet);
 
 // Process JSON into an array.
@@ -177,24 +203,24 @@ var classifier = new ml.LogisticRegression({
 
 classifier.set('log level',1);
 
-var training_epochs = 800, lr = 0.5;
+var training_steps = 800, lr = 0.5;
 
 classifier.train({
     'lr' : lr,
-    'epochs' : training_epochs
+    'epochs' : training_steps
 });
 
 // Define new points.
 var newInputs = [[1, 3],
      [2, 2],
-     [4, 3]];
+     [4, 1]];
 
 var newResponse = [];
 
 // Predict results for new points.
 var prediction = classifier.predict(newInputs);
 
-// Process results into use-able information.
+// Process results into usable information.
 prediction.forEach(function(responseArray) {
 
     var maxResponse = Math.max.apply(Math, responseArray);
@@ -205,6 +231,7 @@ prediction.forEach(function(responseArray) {
 
 console.log("Result : ", newResponse);
 
+// Plot the original dataset.
 scatterPlot(dataSet, "./scatterplot1.svg", "Weight (kg)", "Price($)");
 
 
