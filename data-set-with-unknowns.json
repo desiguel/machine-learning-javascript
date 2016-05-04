@@ -1,0 +1,2402 @@
+[
+  {
+    "weight": 0.622,
+    "price": 0.336,
+    "class": "apples"
+  },
+  {
+    "weight": 1.116,
+    "price": 0.437,
+    "class": "apples"
+  },
+  {
+    "weight": 0.521,
+    "price": 1.271,
+    "class": "apples"
+  },
+  {
+    "weight": 0.881,
+    "price": 1.137,
+    "class": "apples"
+  },
+  {
+    "weight": 1.05,
+    "price": 0.349,
+    "class": "apples"
+  },
+  {
+    "weight": 1.162,
+    "price": 0.845,
+    "class": "apples"
+  },
+  {
+    "weight": 0.48,
+    "price": 0.924,
+    "class": "apples"
+  },
+  {
+    "weight": 1.283,
+    "price": 1.401,
+    "class": "apples"
+  },
+  {
+    "weight": 1.268,
+    "price": 1.01,
+    "class": "apples"
+  },
+  {
+    "weight": 0.724,
+    "price": 0.916,
+    "class": "apples"
+  },
+  {
+    "weight": 0.935,
+    "price": 0.842,
+    "class": "apples"
+  },
+  {
+    "weight": 1.146,
+    "price": 0.69,
+    "class": "apples"
+  },
+  {
+    "weight": 0.877,
+    "price": 0.553,
+    "class": "apples"
+  },
+  {
+    "weight": 1.501,
+    "price": 0.691,
+    "class": "apples"
+  },
+  {
+    "weight": 1.38,
+    "price": 0.519,
+    "class": "apples"
+  },
+  {
+    "weight": 1.206,
+    "price": 0.701,
+    "class": "apples"
+  },
+  {
+    "weight": 1.435,
+    "price": 1.139,
+    "class": "apples"
+  },
+  {
+    "weight": 0.57,
+    "price": 1.243,
+    "class": "apples"
+  },
+  {
+    "weight": 0.143,
+    "price": 0.495,
+    "class": "apples"
+  },
+  {
+    "weight": 0.877,
+    "price": 0.415,
+    "class": "apples"
+  },
+  {
+    "weight": 1.153,
+    "price": 0.686,
+    "class": "apples"
+  },
+  {
+    "weight": 0.757,
+    "price": 1.867,
+    "class": "apples"
+  },
+  {
+    "weight": 1.357,
+    "price": 1.379,
+    "class": "apples"
+  },
+  {
+    "weight": 1.327,
+    "price": 0.995,
+    "class": "apples"
+  },
+  {
+    "weight": 0.731,
+    "price": 1.15,
+    "class": "apples"
+  },
+  {
+    "weight": 1.489,
+    "price": 1.462,
+    "class": "apples"
+  },
+  {
+    "weight": 1.521,
+    "price": 0.886,
+    "class": "apples"
+  },
+  {
+    "weight": 0.724,
+    "price": 0.8,
+    "class": "apples"
+  },
+  {
+    "weight": 0.271,
+    "price": 1.227,
+    "class": "apples"
+  },
+  {
+    "weight": 1.011,
+    "price": 1.665,
+    "class": "apples"
+  },
+  {
+    "weight": 0.782,
+    "price": 1.691,
+    "class": "apples"
+  },
+  {
+    "weight": 1.262,
+    "price": 1.276,
+    "class": "apples"
+  },
+  {
+    "weight": 1.378,
+    "price": 0.832,
+    "class": "apples"
+  },
+  {
+    "weight": 1.39,
+    "price": 1.033,
+    "class": "apples"
+  },
+  {
+    "weight": 1.401,
+    "price": 0.67,
+    "class": "apples"
+  },
+  {
+    "weight": 1.119,
+    "price": 0.274,
+    "class": "apples"
+  },
+  {
+    "weight": 1.122,
+    "price": 0.843,
+    "class": "apples"
+  },
+  {
+    "weight": 1.243,
+    "price": 0.374,
+    "class": "apples"
+  },
+  {
+    "weight": 0.536,
+    "price": 1.016,
+    "class": "apples"
+  },
+  {
+    "weight": 1.123,
+    "price": 1.54,
+    "class": "apples"
+  },
+  {
+    "weight": 1.265,
+    "price": 2.691,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.537,
+    "price": 2.324,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.942,
+    "price": 1.943,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.824,
+    "price": 2.337,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.784,
+    "price": 2.56,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.679,
+    "price": 1.997,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.129,
+    "price": 2.685,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.774,
+    "price": 2.515,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.72,
+    "price": 1.4,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.699,
+    "price": 2.171,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.999,
+    "price": 1.175,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.752,
+    "price": 1.631,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.131,
+    "price": 2.039,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.583,
+    "price": 1.067,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.869,
+    "price": 1.144,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.308,
+    "price": 1.511,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.093,
+    "price": 2.034,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.859,
+    "price": 1.897,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.625,
+    "price": 1.521,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.797,
+    "price": 2.062,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.395,
+    "price": 2.109,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.904,
+    "price": 2.439,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.507,
+    "price": 1.76,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.745,
+    "price": 2.118,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.078,
+    "price": 1.994,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.322,
+    "price": 2.222,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.748,
+    "price": 1.988,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.965,
+    "price": 1.89,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.228,
+    "price": 2.446,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.919,
+    "price": 1.768,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.122,
+    "price": 2.461,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.512,
+    "price": 2.96,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.721,
+    "price": 1.812,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.421,
+    "price": 1.158,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.055,
+    "price": 1.683,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.715,
+    "price": 2.211,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.432,
+    "price": 1.816,
+    "class": "oranges"
+  },
+  {
+    "weight": 0.715,
+    "price": 1.94,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.722,
+    "price": 2.652,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.265,
+    "price": 1.642,
+    "class": "oranges"
+  },
+  {
+    "weight": 1.396,
+    "price": 2.593,
+    "class": "pears"
+  },
+  {
+    "weight": 1.363,
+    "price": 3.505,
+    "class": "pears"
+  },
+  {
+    "weight": 1.338,
+    "price": 2.929,
+    "class": "pears"
+  },
+  {
+    "weight": 1.29,
+    "price": 2.637,
+    "class": "pears"
+  },
+  {
+    "weight": 1.079,
+    "price": 2.332,
+    "class": "pears"
+  },
+  {
+    "weight": 0.379,
+    "price": 2.61,
+    "class": "pears"
+  },
+  {
+    "weight": 1.463,
+    "price": 1.973,
+    "class": "pears"
+  },
+  {
+    "weight": 1.663,
+    "price": 2.768,
+    "class": "pears"
+  },
+  {
+    "weight": 0.642,
+    "price": 1.92,
+    "class": "pears"
+  },
+  {
+    "weight": 1.322,
+    "price": 3.49,
+    "class": "pears"
+  },
+  {
+    "weight": 1.401,
+    "price": 2.881,
+    "class": "pears"
+  },
+  {
+    "weight": 0.112,
+    "price": 3.422,
+    "class": "pears"
+  },
+  {
+    "weight": 1.302,
+    "price": 2.937,
+    "class": "pears"
+  },
+  {
+    "weight": 2.179,
+    "price": 3.242,
+    "class": "pears"
+  },
+  {
+    "weight": 0.912,
+    "price": 3.02,
+    "class": "pears"
+  },
+  {
+    "weight": 1.37,
+    "price": 3.234,
+    "class": "pears"
+  },
+  {
+    "weight": 0.732,
+    "price": 2.944,
+    "class": "pears"
+  },
+  {
+    "weight": 0.867,
+    "price": 2.605,
+    "class": "pears"
+  },
+  {
+    "weight": 1.557,
+    "price": 2.506,
+    "class": "pears"
+  },
+  {
+    "weight": 0.345,
+    "price": 3.441,
+    "class": "pears"
+  },
+  {
+    "weight": 1.155,
+    "price": 2.755,
+    "class": "pears"
+  },
+  {
+    "weight": 1.217,
+    "price": 2.641,
+    "class": "pears"
+  },
+  {
+    "weight": 0.882,
+    "price": 3.199,
+    "class": "pears"
+  },
+  {
+    "weight": 1.021,
+    "price": 2.787,
+    "class": "pears"
+  },
+  {
+    "weight": 0.442,
+    "price": 3.349,
+    "class": "pears"
+  },
+  {
+    "weight": 1.049,
+    "price": 3.276,
+    "class": "pears"
+  },
+  {
+    "weight": 0.948,
+    "price": 3.254,
+    "class": "pears"
+  },
+  {
+    "weight": 0.942,
+    "price": 2.585,
+    "class": "pears"
+  },
+  {
+    "weight": 0.883,
+    "price": 3.081,
+    "class": "pears"
+  },
+  {
+    "weight": 0.811,
+    "price": 2.766,
+    "class": "pears"
+  },
+  {
+    "weight": 1.375,
+    "price": 2.564,
+    "class": "pears"
+  },
+  {
+    "weight": 0.312,
+    "price": 2.896,
+    "class": "pears"
+  },
+  {
+    "weight": 0.922,
+    "price": 2.959,
+    "class": "pears"
+  },
+  {
+    "weight": 0.22,
+    "price": 2.453,
+    "class": "pears"
+  },
+  {
+    "weight": 1.136,
+    "price": 3.307,
+    "class": "pears"
+  },
+  {
+    "weight": 0.301,
+    "price": 2.827,
+    "class": "pears"
+  },
+  {
+    "weight": 0.629,
+    "price": 3.268,
+    "class": "pears"
+  },
+  {
+    "weight": 0.766,
+    "price": 2.804,
+    "class": "pears"
+  },
+  {
+    "weight": 0.552,
+    "price": 3.095,
+    "class": "pears"
+  },
+  {
+    "weight": 0.796,
+    "price": 3.184,
+    "class": "pears"
+  },
+  {
+    "weight": 1.5,
+    "price": 1.879,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.155,
+    "price": 0.842,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.389,
+    "price": 1.305,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.708,
+    "price": 1.288,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.512,
+    "price": 1.222,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.369,
+    "price": 1.288,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.673,
+    "price": 0.785,
+    "class": "bananas"
+  },
+  {
+    "weight": 0.698,
+    "price": 1.207,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.632,
+    "price": 0.729,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.968,
+    "price": 0.744,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.189,
+    "price": 1.238,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.028,
+    "price": 0.754,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.766,
+    "price": 0.457,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.508,
+    "price": 1.438,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.987,
+    "price": 0.96,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.698,
+    "price": 0.917,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.013,
+    "price": 1.045,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.829,
+    "price": 0.505,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.84,
+    "price": 0.536,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.087,
+    "price": 1.066,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.807,
+    "price": 0.966,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.419,
+    "price": 0.265,
+    "class": "bananas"
+  },
+  {
+    "weight": 0.651,
+    "price": 1.074,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.502,
+    "price": 0.581,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.981,
+    "price": 1.026,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.893,
+    "price": 1.039,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.391,
+    "price": 1.083,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.23,
+    "price": 0.333,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.755,
+    "price": 0.945,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.545,
+    "price": 0.598,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.408,
+    "price": 0.756,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.961,
+    "price": 0.929,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.132,
+    "price": 0.845,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.56,
+    "price": 0.646,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.849,
+    "price": 0.517,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.323,
+    "price": 0.848,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.558,
+    "price": 0.788,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.124,
+    "price": 0.994,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.776,
+    "price": 1.158,
+    "class": "bananas"
+  },
+  {
+    "weight": 2.097,
+    "price": 1.271,
+    "class": "bananas"
+  },
+  {
+    "weight": 1.546,
+    "price": 1.536,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.413,
+    "price": 1.912,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.5,
+    "price": 2.07,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.741,
+    "price": 2.506,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.364,
+    "price": 2.318,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.903,
+    "price": 1.918,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.134,
+    "price": 1.85,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.805,
+    "price": 2.082,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.345,
+    "price": 1.681,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.448,
+    "price": 1.887,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.082,
+    "price": 1.437,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.308,
+    "price": 1.951,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.378,
+    "price": 1.633,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.653,
+    "price": 1.457,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.87,
+    "price": 2.207,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.162,
+    "price": 1.833,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.399,
+    "price": 1.793,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.699,
+    "price": 1.744,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.326,
+    "price": 1.994,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.484,
+    "price": 2.231,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.972,
+    "price": 1.945,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.904,
+    "price": 1.497,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.13,
+    "price": 1.858,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.343,
+    "price": 1.698,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.293,
+    "price": 2.072,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.888,
+    "price": 1.819,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.707,
+    "price": 2.089,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.773,
+    "price": 1.855,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.968,
+    "price": 1.974,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.287,
+    "price": 1.875,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.696,
+    "price": 2.115,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.976,
+    "price": 1.705,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.482,
+    "price": 1.74,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.071,
+    "price": 1.825,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.677,
+    "price": 2.814,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.175,
+    "price": 1.917,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.287,
+    "price": 2.213,
+    "class": "peaches"
+  },
+  {
+    "weight": 1.675,
+    "price": 1.921,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.044,
+    "price": 2.368,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.701,
+    "price": 2.115,
+    "class": "peaches"
+  },
+  {
+    "weight": 2.284,
+    "price": 2.389,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.152,
+    "price": 3.178,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.57,
+    "price": 3.451,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.508,
+    "price": 2.995,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.814,
+    "price": 2.122,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.642,
+    "price": 3.264,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.533,
+    "price": 3.7,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.333,
+    "price": 2.951,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.434,
+    "price": 3.309,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.974,
+    "price": 2.04,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.44,
+    "price": 3.217,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.324,
+    "price": 2.643,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.573,
+    "price": 2.792,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.325,
+    "price": 2.979,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.362,
+    "price": 2.496,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.613,
+    "price": 2.67,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.242,
+    "price": 2.999,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.432,
+    "price": 2.884,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.806,
+    "price": 2.472,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.441,
+    "price": 2.535,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.397,
+    "price": 2.727,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.329,
+    "price": 2.857,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.911,
+    "price": 2.928,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.232,
+    "price": 3.329,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.241,
+    "price": 2.852,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.018,
+    "price": 2.796,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.084,
+    "price": 3.416,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.516,
+    "price": 2.888,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.373,
+    "price": 2.869,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.651,
+    "price": 3.584,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.551,
+    "price": 2.674,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.219,
+    "price": 3.377,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.73,
+    "price": 3.449,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.443,
+    "price": 3.255,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.692,
+    "price": 3.316,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.108,
+    "price": 3.292,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.045,
+    "price": 2.99,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.599,
+    "price": 3.068,
+    "class": "watermelon"
+  },
+  {
+    "weight": 2.268,
+    "price": 3.244,
+    "class": "watermelon"
+  },
+  {
+    "weight": 1.776,
+    "price": 1.92,
+    "class": "watermelon"
+  },
+  {
+    "weight": 3.49,
+    "price": 0.816,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.5,
+    "price": 1.991,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.52,
+    "price": 0.647,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.84,
+    "price": 0.365,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.894,
+    "price": 0.507,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.399,
+    "price": 0.08,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.31,
+    "price": 1.523,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.012,
+    "price": 1.222,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.901,
+    "price": 1.079,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.477,
+    "price": 1.023,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.969,
+    "price": 0.967,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.298,
+    "price": 1.76,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.74,
+    "price": 0.705,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.081,
+    "price": 1.81,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.774,
+    "price": 1.115,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.681,
+    "price": 0.77,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.63,
+    "price": 1.308,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.631,
+    "price": 1.219,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.401,
+    "price": 1.468,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.404,
+    "price": 1.072,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.433,
+    "price": 1.16,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.817,
+    "price": 1.276,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.231,
+    "price": 1.612,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.31,
+    "price": 1.234,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.482,
+    "price": 1.714,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.016,
+    "price": 1.222,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.393,
+    "price": 0.347,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.3,
+    "price": 1.357,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.677,
+    "price": 1.018,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.033,
+    "price": 1.362,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.448,
+    "price": 1.477,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.67,
+    "price": 1.683,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.33,
+    "price": 1.035,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.272,
+    "price": 1.541,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.658,
+    "price": 1.128,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 2.25,
+    "price": 1.446,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.254,
+    "price": 1.466,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.129,
+    "price": 1.006,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.317,
+    "price": 1.314,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.372,
+    "price": 0.86,
+    "class": "rockmelon"
+  },
+  {
+    "weight": 3.303,
+    "price": 2.261,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.378,
+    "price": 1.571,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.791,
+    "price": 2.074,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.609,
+    "price": 1.79,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.462,
+    "price": 2.147,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.726,
+    "price": 1.95,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.071,
+    "price": 2.671,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.699,
+    "price": 2.521,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.776,
+    "price": 2.25,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.969,
+    "price": 1.85,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.381,
+    "price": 2.243,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.711,
+    "price": 1.825,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.952,
+    "price": 2.442,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.989,
+    "price": 1.379,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.992,
+    "price": 2.279,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.678,
+    "price": 1.52,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.082,
+    "price": 0.978,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.352,
+    "price": 2.347,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.402,
+    "price": 1.905,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.312,
+    "price": 1.895,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.466,
+    "price": 1.625,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.235,
+    "price": 1.971,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.783,
+    "price": 2.549,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.31,
+    "price": 2.421,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.024,
+    "price": 1.782,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.901,
+    "price": 2.349,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.16,
+    "price": 2.141,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.452,
+    "price": 2.09,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.138,
+    "price": 2.297,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.347,
+    "price": 1.882,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.84,
+    "price": 2.606,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.741,
+    "price": 1.167,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.373,
+    "price": 1.902,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.648,
+    "price": 1.72,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.557,
+    "price": 2.213,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.611,
+    "price": 2.358,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.866,
+    "price": 2.407,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.265,
+    "price": 2.177,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.871,
+    "price": 1.757,
+    "class": "rasberries"
+  },
+  {
+    "weight": 3.575,
+    "price": 1.657,
+    "class": "rasberries"
+  },
+  {
+    "weight": 2.794,
+    "price": 2.79,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.387,
+    "price": 2.765,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.204,
+    "price": 2.38,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.798,
+    "price": 2.422,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.379,
+    "price": 3.112,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.917,
+    "price": 2.709,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.096,
+    "price": 2.574,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.148,
+    "price": 2.568,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.602,
+    "price": 3.245,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.047,
+    "price": 3.107,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.094,
+    "price": 3.239,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.265,
+    "price": 2.937,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.368,
+    "price": 3.32,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.086,
+    "price": 3.242,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.411,
+    "price": 3.193,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.107,
+    "price": 2.937,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.018,
+    "price": 2.973,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.159,
+    "price": 2.931,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.617,
+    "price": 3.078,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.748,
+    "price": 2.88,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.672,
+    "price": 3.374,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.439,
+    "price": 2.623,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.945,
+    "price": 2.624,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.757,
+    "price": 3.381,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.149,
+    "price": 2.372,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.014,
+    "price": 2.909,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.658,
+    "price": 2.851,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.176,
+    "price": 3.059,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.18,
+    "price": 3.685,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.16,
+    "price": 3.295,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.141,
+    "price": 3.138,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.107,
+    "price": 3.325,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.346,
+    "price": 2.864,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.807,
+    "price": 2.593,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.243,
+    "price": 2.838,
+    "class": "mandarins"
+  },
+  {
+    "weight": 2.851,
+    "price": 2.865,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.446,
+    "price": 2.139,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.057,
+    "price": 3.461,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.686,
+    "price": 3.465,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.991,
+    "price": 3.165,
+    "class": "mandarins"
+  },
+  {
+    "weight": 3.678,
+    "price": 1.217,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.859,
+    "price": 0.619,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.709,
+    "price": 1.224,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.236,
+    "price": 1.45,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.459,
+    "price": 0.984,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.55,
+    "price": 0.929,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.471,
+    "price": 1.555,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.973,
+    "price": 0.805,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.614,
+    "price": 1.633,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.789,
+    "price": 0.688,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.209,
+    "price": 0.726,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.545,
+    "price": 0.975,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.531,
+    "price": 1.246,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.409,
+    "price": 0.868,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.749,
+    "price": 1.128,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.325,
+    "price": 1.019,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.927,
+    "price": 1.241,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.99,
+    "price": 0.903,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.329,
+    "price": 1.219,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.961,
+    "price": 0.708,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.981,
+    "price": 1.248,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.02,
+    "price": 0.3,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.669,
+    "price": 1.31,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.914,
+    "price": 0.739,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.407,
+    "price": 1.832,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.308,
+    "price": 0.827,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.005,
+    "price": 0.728,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.787,
+    "price": 0.864,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.779,
+    "price": 1.404,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.21,
+    "price": 0.837,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.165,
+    "price": 1.097,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.382,
+    "price": 1.315,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.582,
+    "price": 0.731,
+    "class": "blueberries"
+  },
+  {
+    "weight": 5.146,
+    "price": 1.272,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.018,
+    "price": 0.955,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.029,
+    "price": 0.506,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.091,
+    "price": 0.947,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.752,
+    "price": 0.801,
+    "class": "blueberries"
+  },
+  {
+    "weight": 4.522,
+    "price": 0.578,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.782,
+    "price": 0.923,
+    "class": "blueberries"
+  },
+  {
+    "weight": 3.854,
+    "price": 1.673,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.393,
+    "price": 1.68,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.392,
+    "price": 2.609,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.822,
+    "price": 2.314,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.765,
+    "price": 1.279,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.528,
+    "price": 2.095,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.853,
+    "price": 1.67,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.464,
+    "price": 1.332,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.493,
+    "price": 1.652,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.188,
+    "price": 2.673,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.401,
+    "price": 1.591,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.498,
+    "price": 2.508,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.058,
+    "price": 1.656,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.505,
+    "price": 2.036,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.073,
+    "price": 2.734,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.49,
+    "price": 2.008,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.951,
+    "price": 2.498,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.369,
+    "price": 2.012,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.839,
+    "price": 2.082,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.773,
+    "price": 2.052,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.382,
+    "price": 1.421,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.511,
+    "price": 1.867,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.697,
+    "price": 1.75,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.965,
+    "price": 2.275,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.226,
+    "price": 2.696,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.9,
+    "price": 1.436,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.672,
+    "price": 2.336,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.776,
+    "price": 2.188,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.208,
+    "price": 3.095,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.36,
+    "price": 2,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.446,
+    "price": 2.246,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.651,
+    "price": 1.694,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.33,
+    "price": 1.984,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.156,
+    "price": 1.931,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.631,
+    "price": 1.594,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.696,
+    "price": 2.245,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.574,
+    "price": 1.54,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.421,
+    "price": 1.89,
+    "class": "nectarines"
+  },
+  {
+    "weight": 3.725,
+    "price": 2.136,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.179,
+    "price": 2.446,
+    "class": "nectarines"
+  },
+  {
+    "weight": 4.054,
+    "price": 4.037,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.87,
+    "price": 4.422,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.487,
+    "price": 4.134,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.6,
+    "price": 4.362,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.982,
+    "price": 3.683,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.918,
+    "price": 4.021,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.849,
+    "price": 3.691,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.451,
+    "price": 4.241,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.407,
+    "price": 4.212,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.723,
+    "price": 3.137,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.901,
+    "price": 4.106,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.207,
+    "price": 3.849,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.089,
+    "price": 3.464,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.066,
+    "price": 5.598,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.218,
+    "price": 4.48,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.212,
+    "price": 3.478,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.601,
+    "price": 4.646,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.079,
+    "price": 3.857,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.536,
+    "price": 3.579,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.032,
+    "price": 4.527,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.137,
+    "price": 3.492,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.121,
+    "price": 3.73,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.078,
+    "price": 3.859,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.653,
+    "price": 3.697,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.297,
+    "price": 4.33,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.593,
+    "price": 4.799,
+    "class": "grapes"
+  },
+  {
+    "weight": 5.01,
+    "price": 3.72,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.512,
+    "price": 4.219,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.536,
+    "price": 3.981,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.287,
+    "price": 3.849,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.269,
+    "price": 4.384,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.106,
+    "price": 4.021,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.773,
+    "price": 3.4,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.192,
+    "price": 4.426,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.772,
+    "price": 3.624,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.051,
+    "price": 3.293,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.641,
+    "price": 4.869,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.134,
+    "price": 4.632,
+    "class": "grapes"
+  },
+  {
+    "weight": 4.064,
+    "price": 3.747,
+    "class": "grapes"
+  },
+  {
+    "weight": 3.475,
+    "price": 4.028,
+    "class": "grapes"
+  }
+]
