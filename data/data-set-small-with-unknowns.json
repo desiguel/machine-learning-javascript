@@ -403,5 +403,15 @@
     "weight": 1,
     "price": 3,
     "class": "unknown"
+  },
+  {
+    "weight": 2,
+    "price": 2,
+    "class": "unknown"
+  },
+  {
+    "weight": 3.5,
+    "price": 1.5,
+    "class": "unknown"
   }
 ]

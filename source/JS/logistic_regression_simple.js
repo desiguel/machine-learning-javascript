@@ -27,7 +27,7 @@ function scatterPlot(data, filename, xlab, ylab) {
 
     // SVG dimensions
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
-        width = 960 - margin.left - margin.right,
+        width = 700 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
     var x = d3.scale.linear()
@@ -84,16 +84,6 @@ function scatterPlot(data, filename, xlab, ylab) {
         .style("text-anchor", "end")
         .text(ylab);
 
-    /*
-    svg.selectAll(".dot")
-        .data(data)
-        .enter().append("circle")
-        .attr("class", "dot")
-        .attr("r", 3.5)
-        .attr("cx", function(d) { return x(d.weight); })
-        .attr("cy", function(d) { return y(d.price); })
-        .style("fill", function(d) { return color(d.class); });
-    */
     svg.selectAll("path")
         .data(data)
         .enter().append("path")
@@ -177,7 +167,7 @@ function scatterPlot(data, filename, xlab, ylab) {
 var ml = require('machine_learning');
 
 // Load training data from file.
-var dataSet = require('./data-set-with-unknowns.json');
+var dataSet = require('../../data/data-set-large.json');
 
 // Get class/category names.
 var classNames = getClassNames(dataSet);
@@ -211,7 +201,7 @@ classifier.train({
 // Define new points.
 var newInputs = [[1, 3],
      [2, 2],
-     [4, 1]];
+     [3.5, 1.5]];
 
 var newResponse = [];
 

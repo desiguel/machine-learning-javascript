@@ -2,8 +2,10 @@ library(jsonlite)
 library(nnet)
 
 # Load data
-rawJSON = readChar("data-set-small.json", file.info("data-set-small.json")$size)
+rawJSON = readChar("../../data/data-set-small.json", 
+                   file.info("../../data/data-set-small.json")$size)
 trainingData = fromJSON(rawJSON)
+trainingData$class = as.factor(trainingData$class)
 
 # Train model.
 classifier = multinom(class ~ ., data = trainingData)

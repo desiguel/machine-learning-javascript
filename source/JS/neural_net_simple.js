@@ -8,26 +8,26 @@ vm.runInThisContext(fs.readFileSync(__dirname + "/functions/lookups.js"));
 var ml = require('machine_learning');
 
 // Load data from file.
-var dataSet = require('./data-set.json');
+var dataSet = require('../../data/data-set-large.json');
 
 // Get class names.
 var classNames = getClassNames(dataSet);
 
 // Process JSON into an array.
-var x = [];
-var y = [];
+var weight = [];
+var price = [];
 
 for (var item, i = 0; item = dataSet[i++];) {
-    x.push([item.x, item.y]);
-    y.push(getResponse(item.class, classNames))
+    weight.push([item.weight, item.price]);
+    price.push(getResponse(item.class, classNames))
 }
 
 var mlp = new ml.MLP({
-    'input' : x,
-    'label' : y,
+    'input' : weight,
+    'label' : price,
     'n_ins' : 2,
     'n_outs' : classNames.length,
-    'hidden_layer_sizes' : [4,4,5]
+    'hidden_layer_sizes' : [3,3]
 });
 
 mlp.set('log level',1); // 0 : nothing, 1 : info, 2 : warning.
@@ -38,23 +38,25 @@ mlp.train({
 });
 
 // New points.
-var newX = [[1, 3],
+var newInputs = [[1, 3],
     [2, 2],
-    [4, 3]];
+    [3.5, 1.5]];
 
-var newY = [];
+var newResponse = [];
 
 // Predict results for points
-var prediction = mlp.predict(newX);
+var prediction = mlp.predict(newInputs);
 
-// Process results into useable information
+console.log(prediction);
+
+// Process results into usable information.
 prediction.forEach(function(responseArray) {
 
     var maxResponse = Math.max.apply(Math, responseArray);
     var responseIndex = responseArray.indexOf(maxResponse);
-    newY.push(classNames[responseIndex])
+    newResponse.push(classNames[responseIndex])
 
 });
 
-console.log("Result : ", newY);
+console.log("Result : ", newResponse);
 

@@ -26,10 +26,6 @@ colnames(df) = c("weight","price","class")
 df$weight = round(as.numeric(as.character(df$weight)), 3)
 df$price = round(as.numeric(as.character(df$price)), 3)
 
-# Plot it!
-plot(df$weight, df$price, col=df$class)
-legend(2,2,unique(df$class),col=1:length(df$class),pch=1)
-
 #write.csv(file="sample-data-complex.csv", x=df)
 jsondf = toJSON(df, pretty=TRUE)
 writeLines(jsondf,"data-set.json")
