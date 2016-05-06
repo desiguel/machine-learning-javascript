@@ -10,8 +10,6 @@ var d3 = require("d3");
 var jsdom = require("jsdom");
 vm.runInThisContext(fs.readFileSync(__dirname + "/functions/lookups.js"));
 
-
-
 // TODO Move scatter-plot function to new file and reference.
 //vm.runInThisContext(fs.readFileSync(__dirname + "/functions/scatter-plot.js"));
 
