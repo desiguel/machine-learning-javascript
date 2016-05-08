@@ -67,6 +67,6 @@ console.log("Result : ", newResponse);
 console.log("Time elapsed : ", (Date.now() - calculationStart) / 1000);
 
 // Plot the original dataset.
-plot.scatter(dataSet, "./scatterplot1.svg", "Weight (kg)", "Price($)");
+// plot.scatter(dataSet, "./scatterplot1.svg", "Weight (kg)", "Price($)");
 
 
