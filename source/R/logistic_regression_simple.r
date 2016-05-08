@@ -1,9 +1,11 @@
+calculationStart = Sys.time()
+
 library(jsonlite)
 library(nnet)
 
 # Load data
-rawJSON = readChar("../../data/data-set-small.json", 
-                   file.info("../../data/data-set-small.json")$size)
+rawJSON = readChar("data/data-set-large.json", 
+                   file.info("data/data-set-large.json")$size)
 trainingData = fromJSON(rawJSON)
 trainingData$class = as.factor(trainingData$class)
 
@@ -11,10 +13,13 @@ trainingData$class = as.factor(trainingData$class)
 classifier = multinom(class ~ ., data = trainingData)
 
 # Unseen data.
-weight = c(1,2,4)
-price = c(3,2,1)
+weight = c(1,2,3.5)
+price = c(3,2,1.5)
 
 newData = data.frame(weight, price)
 
 newData$predict = predict(classifier, newData)
 newData$predict
+
+calculationTime = Sys.time() - calculationStart
+calculationTime

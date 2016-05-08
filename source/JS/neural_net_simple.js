@@ -1,17 +1,21 @@
+/**
+ * Basic neural net example.
+ * Created by @desiguel
+ */
 
-// Required functions
-var fs = require("fs");
-var vm = require('vm');
-vm.runInThisContext(fs.readFileSync(__dirname + "/functions/lookups.js"));
+var calculationStart = Date.now();
 
-// Load ML library.
+// Required packages
 var ml = require('machine_learning');
 
-// Load data from file.
+// User defined functions
+var lookup = require("./functions/lookups.js");
+
+// Load training data from file.
 var dataSet = require('../../data/data-set-large.json');
 
 // Get class names.
-var classNames = getClassNames(dataSet);
+var classNames = lookup.classNames(dataSet);
 
 // Process JSON into an array.
 var weight = [];
@@ -19,7 +23,7 @@ var price = [];
 
 for (var item, i = 0; item = dataSet[i++];) {
     weight.push([item.weight, item.price]);
-    price.push(getResponse(item.class, classNames))
+    price.push(lookup.responseMap(item.class, classNames))
 }
 
 var mlp = new ml.MLP({
@@ -34,7 +38,7 @@ mlp.set('log level',1); // 0 : nothing, 1 : info, 2 : warning.
 
 mlp.train({
     'lr' : 0.6,
-    'epochs' : 20000
+    'epochs' : 10000
 });
 
 // New points.
@@ -47,8 +51,6 @@ var newResponse = [];
 // Predict results for points
 var prediction = mlp.predict(newInputs);
 
-console.log(prediction);
-
 // Process results into usable information.
 prediction.forEach(function(responseArray) {
 
@@ -59,4 +61,5 @@ prediction.forEach(function(responseArray) {
 });
 
 console.log("Result : ", newResponse);
+console.log("Time elapsed : ", (Date.now() - calculationStart) / 1000);
 

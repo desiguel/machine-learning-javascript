@@ -3,7 +3,7 @@
  */
 
 // Get list of unique class names.
-function getClassNames(items) {
+var classNames = function(items) {
     var lookup = {};
     var result = [];
 
@@ -16,10 +16,10 @@ function getClassNames(items) {
         }
     }
     return result;
-}
+};
 
 // Get response.
-function getResponse(responseClass, classNames) {
+var responseMap = function(responseClass, classNames) {
     var response = [];
     classNames.forEach(function(className) {
         if (responseClass == className) {
@@ -29,26 +29,31 @@ function getResponse(responseClass, classNames) {
         }
     });
     return response;
-}
+};
 
 /**
  * Returns a point style based on the input class category.
  * @param category
  * @returns d3 svg symbol string
  */
-function pointStyle(category) {
+var pointStyle = function(category) {
     if (category == "unknown")
         return "cross";
     return "circle";
-}
+};
 
 /**
  * Returns a point size based on the input class category.
  * @param category
  * @returns d3 svg symbol size
  */
-function pointSize(category) {
+var pointSize = function(category) {
     if (category == "unknown")
         return 140;
     return 30;
-}
+};
+
+module.exports.classNames = classNames;
+module.exports.responseMap = responseMap;
+module.exports.pointStyle = pointStyle;
+module.exports.pointSize = pointSize;

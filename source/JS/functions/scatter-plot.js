@@ -1,5 +1,7 @@
+var fs = require("fs");
 var d3 = require("d3");
 var jsdom = require("jsdom");
+var lookup = require("./lookups.js");
 
 /**
  * Creates a x-y scatter plot of the provided data.
@@ -9,13 +11,13 @@ var jsdom = require("jsdom");
  * @param xlab x-axis label
  * @param ylab y-axis label
  */
-function scatterPlot(data, filename, xlab, ylab) {
+var scatter = function(data, filename, xlab, ylab) {
 
     var document = jsdom.jsdom();
 
     // SVG dimensions
     var margin = {top: 20, right: 20, bottom: 30, left: 40},
-        width = 960 - margin.left - margin.right,
+        width = 700 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
 
     var x = d3.scale.linear()
@@ -72,14 +74,28 @@ function scatterPlot(data, filename, xlab, ylab) {
         .style("text-anchor", "end")
         .text(ylab);
 
-    svg.selectAll(".dot")
+    svg.selectAll("path")
         .data(data)
-        .enter().append("circle")
-        .attr("class", "dot")
-        .attr("r", 3.5)
-        .attr("cx", function(d) { return x(d.weight); })
-        .attr("cy", function(d) { return y(d.price); })
-        .style("fill", function(d) { return color(d.class); });
+        .enter().append("path")
+        .attr("transform", function(d) {
+            return "translate(" + x(d.weight) + "," + y(d.price) + ")";
+        })
+        .attr("d", d3.svg.symbol().type(function(d) {
+                return lookup.pointStyle(d.class);
+            })
+            .size(function(d) {
+                return lookup.pointSize(d.class);
+            }))
+        .style("fill", function(d) {
+            if (d.class != "unknown")
+                return color(d.class);
+            return "black";})
+        .style("stroke", function(d) {
+            if (d.class != "unknown")
+                return color(d.class);
+            return "black";})
+        .style("stroke-width", "1.5px");
+
 
     var legend = svg.selectAll(".legend")
         .data(color.domain())
@@ -100,35 +116,41 @@ function scatterPlot(data, filename, xlab, ylab) {
         .style("text-anchor", "end")
         .text(function(d) { return d; });
 
-    //add css stylesheet
+    // Add css stylesheet.
     var svg_style = svg.append("defs")
         .append('style')
         .attr('type','text/css');
 
-    //text of the CSS stylesheet below -- note the multi-line JS requires
-    //escape characters "\" at the end of each line
-    var css_text = "body {\
-    font: 10px sans-serif;\
-    }\
-    \
-    .axis path,\
-    .axis line {\
-        fill: none;\
-        stroke: #000;\
-        shape-rendering: crispEdges;\
-    }\
-    \
-    .dot {\
-        stroke: #000;\
-    }";
+    // CSS styling
+    var css_text = "<![CDATA[\
+        svg {\
+            font-family: serif;\
+            font-size: 10pt;\
+            fill: black;\
+            stroke-width='20'\
+        }\
+        \
+        .axis path,\
+        .axis line {\
+            fill: none;\
+            stroke: #000;\
+            shape-rendering: crispEdges;\
+        }\
+        \
+        .dot {\
+            stroke: #000;\
+        }\
+    ]]>";
 
     svg_style.text(css_text);
 
     // Print SVG to file.
-    fs.writeFile(filename, d3.select('body').html(), function(err) {
+    fs.writeFile(filename, d3.select(document.body).html(), function(err) {
         if(err) {
             return console.log(err);
         }
         console.log("Image saved!");
     });
 }
+
+module.exports.scatter = scatter;

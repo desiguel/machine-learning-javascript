@@ -1,10 +1,12 @@
+calculationStart = Sys.time()
+
 library(neuralnet)
 library(plyr)
 library(jsonlite)
 
 # Load data
-rawJSON = readChar("data/data-set-small.json", 
-                   file.info("data/data-set-small.json")$size)
+rawJSON = readChar("data/data-set-large.json", 
+                   file.info("data/data-set-large.json")$size)
 trainingData = fromJSON(rawJSON)
 trainingData$class = as.factor(trainingData$class)
 
@@ -27,16 +29,18 @@ f = as.formula(paste(paste0(paste(paste("class",classes[!classes %in% "y"],sep="
                      paste(n[!n %in% "y"], collapse = " + ")))
 
 # Calculate the net
-nnet.class = neuralnet(f,trainingData, hidden=c(3,3), stepmax=3000, threshold=0.001, algorithm = "rprop+", lifesign="full", lifesign.step=10)
+nnet.class = neuralnet(f,trainingData, hidden=c(3,3), stepmax=10000, threshold=0.1, algorithm = "rprop+", lifesign="full", lifesign.step=10)
 
 # Unseen data.
-weight = c(1,2,4)
-price = c(3,2,1)
+weight = c(1,2,3.5)
+price = c(3,2,1.5)
 
 newData = data.frame(weight, price)
 
 nnet.results = compute(nnet.class, newData) #Run them through the neural network
 
 newData$predict = mapvalues(apply(nnet.results$net.result, 1, which.max), to = as.character(classes), from = c(1:length(classes)))
-
 newData$predict
+
+calculationTime = Sys.time() - calculationStart
+calculationTime
