@@ -14,7 +14,7 @@ Make sure you have NodeJS installed, clone the repo, install the dependencies li
 
 For R:
 
-Open the included R project file in RStudio then run either logistic_regression_simple.r or mlp_simple.r.
+Open the included R project file in RStudio, then run either logistic_regression_simple.r or mlp_simple.r.
 
 # Resources
 
