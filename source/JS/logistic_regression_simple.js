@@ -35,7 +35,7 @@ var classifier = new ml.LogisticRegression({
     'n_out' : classNames.length
 });
 
-classifier.set('log level',1);
+classifier.set('log level',1); // 0 : nothing, 1 : info, 2 : warning.
 
 var training_steps = 800, lr = 0.5;
 
